@@ -1,0 +1,88 @@
+
+@import url('https://fonts.google.com/specimen/Sacramento?preview.text=Subscribe%20now%20to%20start%20your%20journey%20of%20inner%20calm%20and%20relaxation.&preview.text_type=custom');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Helvetica;
+}
+
+#nav-bar{
+  display: block;
+  position: fixed;
+  width: 100%;
+  background-color: #e6ffff;
+  padding: 1.5em;
+  top: 0;
+  left: 0;
+  text-align: right;
+}
+
+.img-div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#yoga-img{
+  height: 560px;
+}
+
+#product-features{
+  display: flex;
+  height: 300px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#logo1,#logo2,#logo3,#logo4{
+  width: 25%;
+  align-self: center;
+  text-align: center;
+}
+
+#video{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em; 
+}
+
+#email{
+  width: 300px;
+  height: 3em;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+#subscribe{
+  display: block;
+  text-align: center;
+  margin: 2em 0 0 0;
+  font-size: 3rem;
+  font-family: Sacramento, Times;
+}
+
+#submit{
+  background-color: #e6ffff;
+  border-radius: 5px;
+  height: 3em;
+  width: 100px;
+}
+
+a{
+  text-decoration: none;
+}
+
+@media (max-width: 600px){
+  
+}
